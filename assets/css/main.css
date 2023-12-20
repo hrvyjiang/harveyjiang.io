@@ -2033,7 +2033,7 @@ input, select, textarea {
 				left: 3em;
 				top: 3.4em;
 				opacity: 1;
-				color: #2074e9;
+				color: #000000;
 			}
 
 			.features section:nth-child(1) .icon {
@@ -2228,6 +2228,7 @@ input, select, textarea {
 				}
 
 		}
+
 
 /* Form */
 
@@ -2527,6 +2528,8 @@ input, select, textarea {
 
 		.icon.brands:before {
 			font-family: 'Font Awesome 5 Brands';
+			font-size: 30px;
+			padding-right: 10px;
 		}
 
 		.icon.major {
@@ -2817,6 +2820,7 @@ input, select, textarea {
 			ul.contact > li:first-child {
 				margin-top: 0;
 			}
+	
 
 /* Icons */
 
@@ -2919,7 +2923,7 @@ input, select, textarea {
 	}
 
 		.split > * {
-			width: calc(50% - 2.5em);
+			width: calc(50% - 25em);
 		}
 
 		.split > :nth-child(2n - 1) {
@@ -2932,11 +2936,11 @@ input, select, textarea {
 		}
 
 		.split.style1 > :nth-child(2n - 1) {
-			width: calc(66.66666% - 2.5em);
+			width: 50%;
 		}
 
 		.split.style1 > :nth-child(2n) {
-			width: calc(33.33333% - 2.5em);
+			width: 50%;
 		}
 
 		@media screen and (max-width: 1680px) {
